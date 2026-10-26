@@ -2,6 +2,8 @@
 
 Mindcraft separates two needs: faithfully representing a complicated personal world, and keeping that world navigable enough to act within it. Project execution has its own substrate so neither cognitive layer becomes a project repository.
 
+For the motivation, research connections, trade-offs and evaluation proposals behind these choices, see [Design rationale and evidence](docs/design-rationale.md). This file remains the operational reference; the rationale is optional background.
+
 ## Bedrock: representation
 
 Keep context, experience, understanding, questions and ideas in a flat graph of Markdown documents and links under `bedrock/`. The world can be dense, uneven and incomplete. Its representation need not be globally tidy.

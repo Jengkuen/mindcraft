@@ -51,7 +51,7 @@ These are ordinary requests, not commands you have to memorise. Mindcraft suppli
 
 The agent maintains these structures during normal use. You should be able to inspect them without having to manage the filing yourself. You still own the substantive decisions: what matters, what to commit to, and when a direction should change.
 
-See [the architecture](architecture.md) for the reasoning and [the agent contract](AGENTS.md) for authority and navigation.
+See [the architecture](architecture.md) for the structure, [design rationale and evidence](docs/design-rationale.md) for hypotheses, research connections and proposed comparisons, and [the agent contract](AGENTS.md) for authority and navigation.
 
 ## What is in this repository
 
@@ -68,6 +68,8 @@ Setup creates a self-contained personal copy of this kit without its Git history
 This is an experimental reference kit extracted from a personally used system. The underlying approach has been iterated through personal use. This public starter's usefulness for other people, its effect on cognitive effort, and its reliability across models remain to be established.
 
 Initial checks on 26 October 2026 covered local links, skill metadata, native skill loading in Pi 1.2.0, and agent-led setup followed by recovery in a fresh agent session using a disposable fictional instance. Full interactive testing in the ChatGPT and Pi interfaces remains outstanding.
+
+The [dated check record](docs/evidence/2026-10-26-smoke-check.md) preserves the scenario, recovery response and limitations. These checks establish a working example, not a measured cognitive benefit or superiority over simpler approaches.
 
 It requires an agent that can follow linked instructions and read and write files. Native skill support is optional. A chat that can only read a repository link cannot maintain a durable instance. Different models and harnesses may follow the procedures differently; use the recovery check before relying on them.
 
