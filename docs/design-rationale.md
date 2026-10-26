@@ -59,9 +59,9 @@ Keep four things distinct:
 
 **Trade-off and revision trigger.** Files do not enforce schemas, access boundaries or consistency between concurrent writers. Retrieval and maintenance still depend on the agent. Introduce an index, database or stronger validation when observed failures justify it. One successful recovery between two agent contexts does not establish portability across models or harnesses.
 
-## Evidence available today
+## Validation so far
 
-The [dated check record](evidence/2026-10-26-smoke-check.md) describes the inputs, observed recovery and limitations for the initial version.
+Initial checks on 26 October 2026 covered the following:
 
 | Check | Observation | Limit |
 | --- | --- | --- |

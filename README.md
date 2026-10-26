@@ -69,8 +69,6 @@ This is an experimental reference kit extracted from a personally used system. T
 
 Initial checks on 26 October 2026 covered local links, skill metadata, native skill loading in Pi 1.2.0, and agent-led setup followed by recovery in a fresh agent session using a disposable fictional instance. Full interactive testing in the ChatGPT and Pi interfaces remains outstanding.
 
-The [dated check record](docs/evidence/2026-10-26-smoke-check.md) preserves the scenario, recovery response and limitations. These checks establish a working example, not a measured cognitive benefit or superiority over simpler approaches.
-
 It requires an agent that can follow linked instructions and read and write files. Native skill support is optional. A chat that can only read a repository link cannot maintain a durable instance. Different models and harnesses may follow the procedures differently; use the recovery check before relying on them.
 
 Markdown provides inspectability and portability, not automatic privacy, backup or reliable memory. Your chosen agent and model provider determine where content is processed. Back up your personal instance independently; avoid editing it from two agents at once.
