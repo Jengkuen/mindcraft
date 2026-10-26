@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+
+# Live personal state belongs in a separate instance, never this public kit.
+/bedrock/
+/netherite/
+/workspaces/
+
+# Local harness configuration and transcripts.
+/.pi/
+/.codex/

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Work with Mindcraft"
+  short_description: "Start, capture, stop and resume focused work"
+  default_prompt: "Use $mindcraft-operations to help me work for 45 minutes."

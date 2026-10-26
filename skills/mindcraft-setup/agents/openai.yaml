@@ -1,0 +1,4 @@
+interface:
+  display_name: "Set up Mindcraft"
+  short_description: "Create a personal cognitive workspace"
+  default_prompt: "Use $mindcraft-setup to set up my personal workspace."

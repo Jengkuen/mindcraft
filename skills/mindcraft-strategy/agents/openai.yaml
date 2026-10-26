@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan with Mindcraft"
+  short_description: "Review commitments and agree a workable plan"
+  default_prompt: "Use $mindcraft-strategy to plan my week."
